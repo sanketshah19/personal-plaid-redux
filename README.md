@@ -11,10 +11,6 @@ This project uses the following technologies:
 - [Redux](https://redux.js.org/basics/usagewithreact) for global state management
 - [Plaid](https://plaid.com) for bank account linkage and transaction data
 
-## Medium Post
-
-- [Build a Full Stack Banking Web App with Plaid & the MERN Stack](https://medium.com/@rishipr/build-a-fullstack-banking-web-app-with-plaid-the-mern-stack-508914ce5694)
-
 ## Configuration
 
 ### Mongo
