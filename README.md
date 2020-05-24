@@ -1,4 +1,4 @@
-![MERN_Plaid](mern-plaid/MERN_Plaid.gif)
+![MERN_Plaid](MERN_Plaid.gif)
 Full-stack banking web app built with [Plaid's API](https://plaid.com) and the MERN stack.
 
 This project uses the following technologies:
