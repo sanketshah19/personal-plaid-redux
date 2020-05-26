@@ -1,5 +1,9 @@
-![MERN_Plaid](MERN_Plaid.gif)
 
+<p align="center">
+  <img src="MERN_Plaid.gif" alt="MERN Plaid">
+</p>
+
+`YouTube Link` https://youtu.be/znrBfD8d0SY
 
 Full-stack banking web app built with [Plaid's API](https://plaid.com) and the MERN stack.
 
