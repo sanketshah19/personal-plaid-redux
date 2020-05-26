@@ -1,3 +1,4 @@
+# MERN Plaid
 
 <p align="center">
   <img src="MERN_Plaid.gif" alt="MERN Plaid">
@@ -66,7 +67,7 @@ const PLAID_PUBLIC_KEY = "YOUR_PUBLIC_KEY";
 
 ```javascript
 // Install dependencies for server & client
-npm install && npm run client-install
+npm install && cd client && npm install
 
 // Run client & server with concurrently
 npm run dev
