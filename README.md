@@ -14,6 +14,7 @@ This project uses the following technologies:
 - [MongoDB](https://www.mongodb.com/) for the database
 - [Redux](https://redux.js.org/basics/usagewithreact) for global state management
 - [Plaid](https://plaid.com) for bank account linkage and transaction data
+- [Passport](http://www.passportjs.org) for user authentication
 
 ## Configuration
 
