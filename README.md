@@ -17,6 +17,14 @@ This project uses the following technologies:
 - [Plaid](https://plaid.com) for bank account linkage and transaction data
 - [Passport](http://www.passportjs.org) for user authentication
 
+## Our Plaid flow will go as follows.
+
+- User links a bank account within app, causing our app’s **public key** to be sent to Plaid.
+- Plaid responds with a **public token**, which is unique for each sign in and expires in 30 minutes.
+- We send our public token to our back-end server, exchanging it for an **access token** and **item id** (each bank account has a unique access token and item id).
+- We’ll save this access token, item id and a few other fields in our database (while checking for duplicate accounts).
+- We’ll send our **access token, client id, and client secret** to Plaid to get the user’s **transactions.**
+
 ## Configuration
 
 ### Mongo
@@ -60,16 +68,8 @@ const PLAID_PUBLIC_KEY = "YOUR_PUBLIC_KEY";
                 onScriptLoad={() => this.setState({ loaded: true })}
               >
                 Link Account
-              </PlaidLinkButton>
+</PlaidLinkButton>
 ```
-
-## Our Plaid flow will go as follows.
-
-- User links a bank account within app, causing our app’s **public key** to be sent to Plaid.
-- Plaid responds with a **public token**, which is unique for each sign in and expires in 30 minutes.
-- We send our public token to our back-end server, exchanging it for an **access token** and **item id** (each bank account has a unique access token and item id).
-- We’ll save this access token, item id and a few other fields in our database (while checking for duplicate accounts).
-- We’ll send our **access token, client id, and client secret** to Plaid to get the user’s **transactions.**
 
 ## Quick Start
 
