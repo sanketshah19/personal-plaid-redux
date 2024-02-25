@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "4.12.4",
+    "@mui/material": "5.0.0",
     "axios": "1.2.1",
     "classnames": "2.3.1",
     "jwt-decode": "3.1.2",
